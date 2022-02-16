@@ -20,7 +20,7 @@
 // negativeinfinity 음수를 0으로 나눴을 때 
 // NaN string 을 0으로 나눴을 때 
 
-//String ${} 사용해서 + + 안써도 됨 template literals 
+//String ${} 사용해서 + + 안써도 됨 template literals 역따옴표 사용해서 묶어줘야함 
 
 // Symbol 고유한 식별자가 필요할 때 , 우선순위 주고싶을 때 
 
