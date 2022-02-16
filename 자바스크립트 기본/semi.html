@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //줄바꿈이 발생하면 세미콜론을 삽입 해주는 습관 기르기 ! 
+        alert("제대로 동작합니다.");
+
+        [1, 2].forEach(alert)
+        //대괄호 앞에는 세미콜론이 있다고 가정하지 않기때문에 alert("에러가 발생합니다.")[1, 2].forEach(alert) 라고 인식을 해서 에러가 발생함 
+        alert("에러가 발생합니다.")
+
+        [1, 2].forEach(alert)
+        // ctrl+/ 주석처리 
+    </script>
+</body>
+</html>
