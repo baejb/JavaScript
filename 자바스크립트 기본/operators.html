@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //이항연산자 +를 사용할 때는 피연산자 중 하나가 문자열이면 다른 하나도 문자열로 반환
+        alert( '1' + 2) ; //"12"
+        alert('6' / '2 '); //3 , 두 피연산자가 숫자로 바뀐 후 연산이 진행
+        alert(+true); // 1 , 숫자형이 아닌 피연산자는 숫자형으로 바뀜 
+        alert( + "") ; // 0  
+        let apples = "2";
+        let oranges = "3";
+
+        // 이항 덧셈 연산자가 적용되기 전에, 두 피연산자는 숫자형으로 변화합니다.
+        alert( +apples + +oranges ); // 5
+        
+    </script>
+</body>
+</html>
