@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //일치 연산자 === 를 사용하면 형 변환 없이 값을 비교할 수 있음 
+        alert( null == undefined); //true 
+        alert( null > 0 );  // (1) false
+        alert( null == 0 ); // (2) false
+        alert( null >= 0 ); // (3) true 참을 반환하는 이유는 null이 숫자형으로 변환 돼 0이 되기 때문
+        
+    </script>
+</body>
+</html>
