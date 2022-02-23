@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1번
+        for(let i =2; i<11;i ++){
+            if(i % 2 == 0){
+                alert(i);
+            }
+        }
+        //2번
+        let i = 0;
+        while(i < 3){
+            alert(`number ${i}!`);
+            i++
+        }
+        //3번
+         
+        let input 
+        do{
+            input = prompt("100보다 큰 숫자를 입력해주세요!", '');
+        }while(input<=100 &&input);
+
+        //4번
+        let num = prompt("2부터 입력한 숫자까지의 소수를 출력합니다.",'');
+        Prime:
+        for( let k = 2 ; k <= num; k++){
+            for(let j = 2 ; j < k ; j++){
+                if( k % j == 0) continue Prime;
+            }
+            alert(k); 
+        }
+    </script>
+</body>
+</html>
