@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //return과 값 사이에 절대 줄을 삽입하면 안된다.
+        //자스는 return문 끝에 세미콜론을 자동으로 넣기 때문에 return문을 작성하면 안된다.
+
+        let age = prompt("나이를 입력해주세요", '');
+        function checkAge(age){
+            return (age>18) ? true : confirm('보호자 동의는 받았나요?');
+        }
+        function checkAge1(age){
+            return (age>18) || confirm('보호자 동의는 받았나요?');
+        }
+        checkAge(age);
+        checkAge1(age);
+    </script>
+
+</body>
+</html>
